@@ -1,7 +1,7 @@
-react-spa-protected-dashboard
-NAME Nithish R
-REG.NO:212223040125
-AIM
+# react-spa-protected-dashboard
+## NAME Nithish R
+## REG.NO:212223040135
+## AIM
 To develop a Single Page Application (SPA) using React.js and React Router that includes:
 
 Public routes: Home and Login
@@ -12,7 +12,7 @@ Proper navigation using react-router-dom
 
 Authentication-based route protection to restrict access to dashboard pages only for logged-in users
 
-PROCEDURE
+## PROCEDURE
 Project Setup
 
 Create a new React project using create-react-app
@@ -39,8 +39,9 @@ Verify that accessing protected routes redirects unauthenticated users to Login
 
 Confirm that logged-in users can navigate dashboard subpages
 
-PROGRAM
-APP.JSX
+## PROGRAM 
+## APP.JSX
+
 import React, { createContext, useContext, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, Navigate, Outlet, useNavigate } from "react-router-dom";
 
@@ -101,7 +102,7 @@ const Dashboard = () => {
 };
 
 const Profile = () => <h3>👤 Profile Page</h3>;
-const Settings = () => <h3>⚙️ Settings Page</h3>;
+const Settings = () => <h3>⚙ Settings Page</h3>;
 const Notifications = () => <h3>🔔 Notifications Page</h3>;
 
 // Main App Component
@@ -134,7 +135,15 @@ export default function App() {
     </AuthProvider>
   );
 }
-OUTPUT
-image image image
-RESULT
+
+
+## OUTPUT
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2d058439-f480-4a2f-b00b-26317bcbd6d2" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ed981fbb-d9f4-4dd9-8dae-c54b5f2fd8e6" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/381e2e6b-8e82-4dcb-9718-39026cf45100" />
+
+## RESULT
 A functional SPA with proper navigation and authentication-based protected routes, implemented using modern React best practices and React Router v6. Users can only access dashboard content after logging in.
